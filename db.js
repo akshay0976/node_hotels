@@ -11,7 +11,6 @@ const mongoURL = process.env.MONGODB_URL;
 mongoose.connect(mongoURL, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
-    serverSelectionTimeoutMS: 3000
 })
 
 // Get the default connection
